@@ -1,0 +1,46 @@
+.nav{
+    display:flex;
+    flex-direction: row;
+    background-color:#333333;
+
+}
+
+.nav-title{
+    flex:1;
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+}
+
+.nav-links{
+    list-style: none;
+
+    display:flex;
+    flex-direction: row;
+    flex:3;
+
+    align-items: center;
+    justify-content:flex-end;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    color:#d4d4d4;
+}
+
+li{
+    margin:5px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #17a2b8;
+    color:#e2e2e2;
+    border-color:black;
+    margin:5px;
+    box-shadow:3px 3px black ;
+    font-size:15px;
+}
